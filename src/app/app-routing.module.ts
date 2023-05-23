@@ -17,6 +17,9 @@ const routes: Routes = [
   },
   {
     path: 'contactComponent', component : ContactComponent
+  },
+  {
+    path: '**', component : HomepageComponent
   }
 ];
 
