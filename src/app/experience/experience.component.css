@@ -1,0 +1,32 @@
+.container-fluid{
+    background-color: black;
+    height: 100%;
+}
+
+.row{
+    color: black;
+}
+
+.experience{
+    margin-top:7.5vh;
+    margin-left: 10%;
+    text-align: center;
+    background-color:wheat;
+    width:80%;
+    border-radius: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.experience-desc{
+    margin-top:7.5vh;
+    margin-bottom: 7.5vh;
+    margin-left: 10%;
+    text-align: left;
+    background-color:wheat;
+    width:80%;
+    height:150vh;
+    border-radius: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}

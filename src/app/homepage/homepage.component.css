@@ -1,0 +1,25 @@
+.container-fluid{
+    background-color: black;
+    height: 91vh;
+}
+
+.col{
+    color:white;
+    margin:7.5vh;
+    height: 100%
+}
+
+.oversize {
+    width: 100%;
+    height: auto;
+}
+
+.greetings{
+    text-align: center;
+    margin-top: 25.5vh;
+    margin-left: 20vh;
+    background-color:burlywood;
+    color: black;
+    border-radius: 5vh;
+    padding:2.5vh;
+}
