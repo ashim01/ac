@@ -1,25 +1,22 @@
-/* .navbar {
-    width: 100%;
-    overflow: auto;
+.navbar {
     background-color: black;
     color: white;
     height: 9vh;
 }
 
 .nav-item {
-    float: left;
     color: white;
-    text-decoration: none;
-    font-size: 20px;
-    width: 25%;
-    text-align: center;
-} */
+}   
+.itemQ{
+    border: 1px solid white;
+    border-width: 0px 1px 0 0;
+  }
 
 
 /*The below code is the navbar I designed */
 
 
-.container-fluid{
+/* .container-fluid{
     background-color: black;
     height: 9vh;
 }
@@ -62,4 +59,4 @@
     padding-bottom: 0.5vh;
     margin-left:10vh;
     margin-right:10vh;
-}
+} */

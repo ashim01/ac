@@ -1,4 +1,35 @@
+.container-xxl{
+    background-color: black;
+    min-height: 91vh;
+    height: 100%;
+}
+
 .container-fluid{
     background-color: black;
-    height: 91vh;
+}
+
+.row{
+    color: black;
+}
+
+.contact{
+    margin-top:7.5vh;
+    margin-left: 10%;
+    text-align: center;
+    background-color:wheat;
+    width:80%;
+    border-radius: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.contact-items{
+    margin-top:7.5vh;
+    margin-left: 30%;
+    text-align: center;
+    background-color:white;
+    width:40%;
+    border-radius: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }

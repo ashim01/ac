@@ -1,6 +1,11 @@
+.container-xxl{
+    background-color: black;
+    min-height: 91vh;
+    height: 100%;
+}
+
 .container-fluid{
     background-color: black;
-    height: 91vh;
 }
 
 .row{
