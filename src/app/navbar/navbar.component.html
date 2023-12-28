@@ -1,36 +1,53 @@
-<nav class="navbar navbar-expand-lg">
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav justify-content-center w-100">
-      <a class="nav-item nav-link itemQ" href="#"><h1>Home </h1></a>
-      <a class="nav-item nav-link itemQ" href="aboutComponent"><h1> About </h1></a>
-      <a class="nav-item nav-link itemQ" href="experienceComponent"><h1> Experience </h1></a>
-      <a class="nav-item nav-link itemLast" href="contactComponent"><h1> Contact</h1></a>
+<div class="navbarOne">
+  <nav class="navbar navbar-expand-lg">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav justify-content-center w-100">
+        <a class="nav-item nav-link itemQ" href="#">
+          <h1>Home </h1>
+        </a>
+        <a class="nav-item nav-link itemQ" href="aboutComponent">
+          <h1> About </h1>
+        </a>
+        <a class="nav-item nav-link itemQ" href="experienceComponent">
+          <h1> Experience </h1>
+        </a>
+        <a class="nav-item nav-link itemLast" href="contactComponent">
+          <h1> Contact</h1>
+        </a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>
 
-<!-- <div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <div class="title1">
-        <a routerLink="" style="text-decoration: none; color: black;"><h2>Home</h2></a>
+<div class="navbarTwo">
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-white" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Go To</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutComponent">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experienceComponent">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactComponent">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="col">
-      <div class="title2">
-        <a routerLink="/aboutComponent" style="text-decoration: none; color: black;"><h2>About</h2></a>
-      </div>
-    </div>
-    <div class="col">
-      <div class="title3">
-        <a routerLink="/experienceComponent" style="text-decoration: none; color: black;"><h2>Experience</h2></a>
-      </div>
-    </div>
-    <div class="col">
-      <div class="title4">
-        <a routerLink="/contactComponent" style="text-decoration: none; color: black;"><h2>Contact</h2></a>
-      </div>
-    </div>
-  </div>
-</div> -->
-  
+  </nav>
+</div>

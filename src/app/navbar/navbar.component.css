@@ -1,62 +1,30 @@
 .navbar {
     background-color: black;
-    color: white;
     height: 9vh;
 }
 
 .nav-item {
     color: white;
-}   
-.itemQ{
+}
+
+.itemQ {
     border: 1px solid white;
     border-width: 0px 1px 0 0;
-  }
+}
 
+.navbarTwo{
+    display: none;
+}
 
-/*The below code is the navbar I designed */
-
-
-/* .container-fluid{
-    background-color: black;
-    height: 9vh;
+@media only screen and (max-width: 991px) {
+    .navbarOne{
+        display: none;
+    }
+    .navbarTwo{
+        display: contents;
+    }
+    .offcanvas{
+        background-color: black;
+        color: white;
+    }
 }
-.row{
-    background-color: black;
-}
-.col{
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    text-align: center;
-}
-.title1{
-    background-color:beige;
-    border-radius: 5vh;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    margin-left:10vh;
-    margin-right:10vh;
-}
-.title2{
-    background-color: beige;
-    border-radius: 5vh;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    margin-left:10vh;
-    margin-right:10vh;
-}
-.title3{
-    background-color: beige;
-    border-radius: 5vh;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    margin-left:7vh;
-    margin-right:7vh;
-}
-.title4{
-    background-color: beige;
-    border-radius: 5vh;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    margin-left:10vh;
-    margin-right:10vh;
-} */
