@@ -6,6 +6,7 @@
 
 .container-fluid{
     background-color: black;
+    padding-bottom: 5vh;
 }
 
 .row{
@@ -23,13 +24,33 @@
     padding-bottom: 2vh;
 }
 
-.contact-items{
+.contact-itemsOne{
     margin-top:7.5vh;
-    margin-left: 30%;
+    margin-left: 35%;
     text-align: center;
     background-color:white;
-    width:40%;
+    color:white;
+    width:30%;
     border-radius: 5vh;
     padding-top: 2vh;
     padding-bottom: 2vh;
+}
+
+.contact-itemsTwo{
+    margin-top:7.5vh;
+    margin-left: 10%;
+    text-align: center;
+    background-color:gray;
+    color:white;
+    width:80%;
+    border-radius: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact-itemsTwo{
+        font-size: medium;
+    }
 }

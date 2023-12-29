@@ -6,6 +6,7 @@
 
 .container-fluid{
     background-color: black;
+    padding-bottom: 5vh;
 }
 
 .row{
@@ -26,12 +27,18 @@
 .experience-desc{
     margin-top:7.5vh;
     margin-bottom: 7.5vh;
-    margin-left: 10%;
+    margin-left: 35%;
     text-align: center;
     background-color:wheat;
-    width:80%;
-    height:150vh;
+    width:30%;
     border-radius: 5vh;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width: 991px) {
+    .experience-desc{
+        font-size: small;
+    }
 }

@@ -6,6 +6,7 @@
 
 .container-fluid{
     background-color: black;
+    padding-bottom: 5vh;
 }
 
 .row{
